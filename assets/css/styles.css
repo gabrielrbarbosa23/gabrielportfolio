@@ -77,7 +77,7 @@ body.dark-theme{
   --text-color: hsl(var(--hue-color), 8%, 75%);
   --input-color: hsl(var(--hue-color), 29%, 25%);
   --body-color: hsl(var(--hue-color), 28%, 12%);
-  --container-color: #3f4e4f;
+  --container-color: #0E1A1B;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
