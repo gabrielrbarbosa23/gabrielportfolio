@@ -15,6 +15,26 @@
 
         <title>Responsive Portfolio Website</title>
     </head>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+
+            Swal.fire({
+                title: "Este portfolio está desatualizado!",
+                text: "Deseja visualizar ou acessar o novo portfolio?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#28B463",
+                cancelButtonColor: "#ccc",
+                confirmButtonText: "Acessar novo",
+                cancelButtonText: "Visualizar este"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = "https://gabrielrbarbosa23.github.io/portfolio/";
+                }
+            });
+        });
+    </script>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
